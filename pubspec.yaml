@@ -1,0 +1,61 @@
+name: trashtech
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  mobile_scanner: ^6.0.2
+  google_mlkit_barcode_scanning: ^0.11.0
+  http: ^1.1.0
+  tflite_flutter: ^0.10.4
+  google_fonts: ^6.2.1
+  video_player: ^2.9.1
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+dependency_overrides:
+  camera: ^0.10.6
+  camera_platform_interface: ^2.10.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - images/logo1.png
+  - images/logo2.png
+  - images/googlelogo.png
+  - images/facebook_logo.png
+  - images/apple_logo.png
+
+  - images/quick_guide1.png
+  - images/quick_guide2.jpg
+  - images/quick_guide3.png
+  - images/ency1.png
+  - images/ency2.png
+  - images/ency3.png
+
+  - images/vid1_phone.mp4
+  - images/vid2_phone.mp4
+  - images/vidrecycle1.mp4
+  - images/vidrecycle2.mp4
+  - images/vidrecycle3.mp4
+  - images/vidrecycle4.mp4
+  - images/vidrecycle5.mp4
+  - images/viddispose1.mp4
+  - images/viddispose2.mp4
+  - images/viddispose3.mp4
+  - images/vidtips1.mp4
+  - images/vidtips2.mp4
+  - images/vidtips3.mp4
+  - images/vidtips4.mp4
